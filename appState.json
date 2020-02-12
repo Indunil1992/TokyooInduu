@@ -1,0 +1,109 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2ef6570d-c600-4377-b1ab-0fd0db0d2ca3": {
+        "id": "2ef6570d-c600-4377-b1ab-0fd0db0d2ca3",
+        "parent": null,
+        "name": "TokyooInduu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "1eda8655-80cf-457d-8b93-bcb342a4b6e3"
+        ],
+        "isRemovable": false,
+        "filePath": "TokyooInduu"
+      },
+      "1eda8655-80cf-457d-8b93-bcb342a4b6e3": {
+        "id": "1eda8655-80cf-457d-8b93-bcb342a4b6e3",
+        "parent": "2ef6570d-c600-4377-b1ab-0fd0db0d2ca3",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "TokyooInduu/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapNortheast1indunilcaltestinduget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "2ef6570d-c600-4377-b1ab-0fd0db0d2ca3",
+    "openFiles": [
+      "1eda8655-80cf-457d-8b93-bcb342a4b6e3"
+    ],
+    "currentFileId": "1eda8655-80cf-457d-8b93-bcb342a4b6e3",
+    "resources": {
+      "apigapNortheast1indunilcaltestinduget": {
+        "name": "apigapNortheast1indunilcaltestinduget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-northeast-1",
+          "apiMode": 1,
+          "apiName": "indunilcal",
+          "apiId": "t91varlpme",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "u5blxla5u7",
+          "existingResources": {
+            "/test": "393t0o",
+            "/test/indu": "3lx4q3",
+            "/": "u5blxla5u7"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test/indu",
+          "resourceName": "test/indu",
+          "resourceId": "3lx4q3",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "ortorf",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "TokyooInduu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581498056116
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "TokyooInduu",
+      "url": "https://github.com/Indunil1992/TokyooInduu"
+    }
+  }
+}
